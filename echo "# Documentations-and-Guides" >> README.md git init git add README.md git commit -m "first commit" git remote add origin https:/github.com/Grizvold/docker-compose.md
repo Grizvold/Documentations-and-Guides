@@ -27,11 +27,13 @@ Docker Command | Description
  
 
 > Docker-Compose commands: 
+
  Docker Compose commands | Description
 ------------ | -------------
-docker-compose up -d | starts the containers in the background and leaves them running.
+docker-compose up -d | Starts the containers in the background and leaves them running
 
-wget http://localhost:27017/mongo/health - get status of container
+`wget http://localhost:27017/mongo/health` - get status of container
 
-Mongo:
-dockec exec -it <container name> mongo localhost:27017
+>Mongo:
+
+`dockec exec -it <container name> mongo localhost:27017`
