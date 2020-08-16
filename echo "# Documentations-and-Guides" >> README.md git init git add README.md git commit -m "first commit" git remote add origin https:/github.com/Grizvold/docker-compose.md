@@ -1,14 +1,10 @@
 ##Putty info
+
 Type | Info
 ------------ | -------------
 ip | 172.22.193.36
-usr | root
-pswd | rootroot
-
-ip: 172.22.193.36
-usr: root
-pswd: rootroot
-
+user | root
+password | rootroot
 
 Docker Command | Description
 ------------ | -------------
@@ -16,6 +12,8 @@ docker ps -a | View all docker processes
 docker ps -a -f status=exited | Filter to only exited containers
 docker rm $(docker ps -a -f status=exited -q) | Remove all exited containers
 docker stop $(docker ps -a -q) | Stop all containers
+------------ | -------------
+docker system prune | clean up any resources — images, containers, volumes, and networks — that are dangling.
 
 
 docker system prune - clean up any resources — images, containers, volumes, and networks — that are dangling.
