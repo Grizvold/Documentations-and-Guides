@@ -10,8 +10,8 @@ password | rootroot
 
 Docker Command | Description
 ------------ | -------------
-'docker ps -a' | View all docker processes
-'docker ps -a -f status=exited' | Filter to only exited containers
+`docker ps -a` | View all docker processes
+`docker ps -a -f status=exited` | Filter to only exited containers
 docker rm $(docker ps -a -f status=exited -q) | Remove all exited containers
 docker stop $(docker ps -a -q) | Stop all containers
 ------------ | -------------
