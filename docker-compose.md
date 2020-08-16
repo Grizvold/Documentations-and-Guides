@@ -39,3 +39,6 @@ Docker Command | Description
 > **_Mongo:_**
 
 `dockec exec -it <container name> mongo localhost:27017`
+
+
+in case of Return status with errors -> check available space on disk (last time removed volume).
