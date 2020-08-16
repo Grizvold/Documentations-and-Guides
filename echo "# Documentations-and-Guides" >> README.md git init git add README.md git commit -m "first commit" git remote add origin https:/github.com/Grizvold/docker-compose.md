@@ -1,5 +1,6 @@
 ##Putty info
-
+Type | Info
+------------ | -------------
 ip | 172.22.193.36
 usr | root
 pswd | rootroot
