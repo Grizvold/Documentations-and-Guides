@@ -1,6 +1,6 @@
 ## VM docker-compose guide
 
-> **PuTTy settings:**
+> **_PuTTy settings:_**
 
 Type | Info
 ------------ | -------------
@@ -10,7 +10,7 @@ password | rootroot
 
 
 
-> **Docker commands:**
+> **_Docker commands:_**
 
 Docker Command | Description
 ------------ | -------------
@@ -26,7 +26,7 @@ Docker Command | Description
 `docker rmi $(docker images -a -q)` | Remove all images
  
 
-> Docker-Compose commands: 
+> **_Docker-Compose commands:_** 
 
  Docker Compose commands | Description
 ------------ | -------------
@@ -34,6 +34,6 @@ Docker Command | Description
 
 `wget http://localhost:27017/mongo/health` - get status of container
 
->Mongo:
+> **_Mongo:_**
 
 `dockec exec -it <container name> mongo localhost:27017`
