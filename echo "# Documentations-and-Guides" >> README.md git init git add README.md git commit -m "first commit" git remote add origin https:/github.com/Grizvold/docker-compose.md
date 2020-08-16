@@ -8,8 +8,9 @@ ip | 172.22.193.36
 user | root
 password | rootroot
 
+> Docker commands:
 Docker Command | Description
------------- | -------------
+-------------------- | --------------------
 `docker ps -a` | View all docker processes
 `docker ps -a -f status=exited` | Filter to only exited containers
 `docker rm $(docker ps -a -f status=exited -q)` | Remove all exited containers
@@ -22,8 +23,8 @@ Docker Command | Description
 `docker rmi $(docker images -a -q)` | Remove all images
  
 
- 
- Docker Compose | Second Header
+> Docker-Compose commands: 
+ Docker Compose commands | Description
 ------------ | -------------
 docker-compose up -d | starts the containers in the background and leaves them running.
 
