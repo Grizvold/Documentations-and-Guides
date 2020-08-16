@@ -1,6 +1,6 @@
 ## VM docker-compose guide
 
-> PuTTy settings:
+> **PuTTy settings:**
 
 Type | Info
 ------------ | -------------
@@ -10,7 +10,7 @@ password | rootroot
 
 
 
-> Docker commands:
+> **Docker commands:**
 
 Docker Command | Description
 ------------ | -------------
