@@ -30,7 +30,7 @@ Docker Command | Description
 
  Docker Compose commands | Description
 ------------ | -------------
-docker-compose up -d | Starts the containers in the background and leaves them running
+`docker-compose up -d` | Starts the containers in the background and leaves them running
 
 `wget http://localhost:27017/mongo/health` - get status of container
 
