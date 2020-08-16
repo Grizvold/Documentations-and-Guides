@@ -8,10 +8,12 @@ ip | 172.22.193.36
 user | root
 password | rootroot
 
+
+
 > Docker commands:
 
 Docker Command | Description
------------------ | -----------------
+---------------------- | -----------------
 `docker ps -a` | View all docker processes
 `docker ps -a -f status=exited` | Filter to only exited containers
 `docker rm $(docker ps -a -f status=exited -q)` | Remove all exited containers
