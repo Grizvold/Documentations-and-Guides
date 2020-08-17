@@ -11,10 +11,10 @@ __Create new branch:__
 
 __Now if you want to merge and make new master:__
 
-`git status`
-`git checkout master`
-`git merge <name_of_branch>`
-`git branch -d <name_of_branch>` - delete branch since its master now and we dont use it anymore.
+* `git status`
+* `git checkout master`
+* `git merge <name_of_branch>`
+* `git branch -d <name_of_branch>` - delete branch since its master now and we dont use it anymore.
 
 __Usefull commands:__
 
