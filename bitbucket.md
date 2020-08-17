@@ -16,4 +16,5 @@ __Create new branch:__
 	* `git branch -d <name_of_branch>` - delete branch since its master now and we dont use it anymore.
 
 __Usefull commands:__
+
 `git clone -b <branch_name> <remote_repository_URL>` - clone specific branch.
