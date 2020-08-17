@@ -32,8 +32,15 @@ Docker Command | Description
 ------------ | -------------
 `docker-compose up -d` | Starts the containers in the background and leaves them running
 
-`wget http://localhost:27017/mongo/health` - get status of container
 
+> **_Linux commands:_**
+Docker Command | Description
+------------ | -------------
+`wget http://localhost:27017/mongo/health` | get status of container
+df | Display the amount of available disk space for file systems on which the invoking user has appropriate read access
+du -d 1 -h | standard Unix program used to estimate file space usage—space used under a particular directory or files on a file system
+ | -d 1 is the depth of the directories
+ | -h is the human-readable option
 
 
 > **_Mongo:_**
