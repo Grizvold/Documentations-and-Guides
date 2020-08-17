@@ -12,3 +12,5 @@
 	* `git checkout master`
 	* `git merge <name_of_branch>`
 	* `git branch -d <name_of_branch>` - delete branch since its master now and we dont use it anymore.
+
+`git clone -b <branch_name> <remote_repository_URL>` - clone specific branch.
