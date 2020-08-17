@@ -8,7 +8,6 @@
 6. `git commit -m "update"`
 
 	__Now if you want to merge and make new master:__
-	
 	1. `git status`
 	2. `git checkout master`
 	3. `git merge <name_of_branch>`
