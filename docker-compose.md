@@ -43,7 +43,7 @@ Linux Command | Description
 
 
 
-> ##_Mongo:_
+> ## _Mongo:_
 
 `dockec exec -it <container name> mongo localhost:27017`
 
