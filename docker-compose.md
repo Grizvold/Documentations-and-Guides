@@ -1,6 +1,6 @@
 ## VM docker-compose guide
 
-> **_PuTTy settings:_**
+> ## _PuTTy settings:_
 
 Type | Info
 ------------ | -------------
@@ -10,7 +10,7 @@ password | rootroot
 
 
 
-> **_Docker commands:_**
+> ## _Docker commands:_
 
 Docker Command | Description
 ------------ | -------------
@@ -26,14 +26,14 @@ Docker Command | Description
 `docker rmi $(docker images -a -q)` | Remove all images
  
 
-> **_Docker-Compose commands:_** 
+> ## _Docker-Compose commands:_ 
 
  Docker Compose commands | Description
 ------------ | -------------
 `docker-compose up -d` | Starts the containers in the background and leaves them running
 
 
-> **_Linux commands:_**
+> ## _Linux commands:_
 
 Linux Command | Description
 ------------ | -------------
