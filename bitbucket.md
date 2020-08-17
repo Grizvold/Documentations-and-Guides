@@ -1,5 +1,7 @@
 ## BitBucket guide
 
+__Create new branch:__
+
 1. Go to folder of your repository.
 2. `git branch <name>` - point to new branch.
 3. `git checkout <name_of_branch>` - start using new branch.
@@ -13,4 +15,5 @@
 	* `git merge <name_of_branch>`
 	* `git branch -d <name_of_branch>` - delete branch since its master now and we dont use it anymore.
 
+__Usefull commands:__
 `git clone -b <branch_name> <remote_repository_URL>` - clone specific branch.
