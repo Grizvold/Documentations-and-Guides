@@ -41,8 +41,8 @@ Linux Command | Description
 `df` | Display the amount of available disk space for file systems on which the invoking user has appropriate read access
 `du -d 1 -h` | Standard Unix program used to estimate file space usage—space used under a particular directory or files on a file system
 `sudo systemctl stop docker` | Stop the docker
-`systemctl enable docker` | The correct way to start docker is to use systemd/systemctl
-`systemctl start docker` | The correct way to start docker is to use systemd/systemctl
+`sudo systemctl enable docker` | The correct way to start docker is to use systemd/systemctl
+`sudo systemctl start docker` | The correct way to start docker is to use systemd/systemctl
 
 
 > ## _Mongo:_
