@@ -34,6 +34,7 @@ Docker Command | Description
 
 
 > **_Linux commands:_**
+
 Docker Command | Description
 ------------ | -------------
 `wget http://localhost:27017/mongo/health` | get status of container
