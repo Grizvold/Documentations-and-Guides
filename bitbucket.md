@@ -8,7 +8,7 @@
 6. `git commit -m "update"`
 
 	__Now if you want to merge and make new master:__
-	1. `git status`
-	2. `git checkout master`
-	3. `git merge <name_of_branch>`
-	4. `git branch -d <name_of_branch>` - delete branch since its master now and we dont use it anymore.
+	* `git status`
+	* `git checkout master`
+	* `git merge <name_of_branch>`
+	* `git branch -d <name_of_branch>` - delete branch since its master now and we dont use it anymore.
