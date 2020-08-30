@@ -1,6 +1,6 @@
 ## Windows terminal commands:
 
-`ipconfig` 0 get IPv4 configurations.
+`ipconfig` - get IPv4 configurations.
 `ipconfig /release` - release ip.
 `ipconfig /renew` - get new ip.
 
