@@ -13,3 +13,5 @@
 `net user /domain <user_name>` - get groups of current user.
 
 `net localgroup groupname` - get all local groups.
+
+`netstat -na` - get all opened/active ports. (for example: netstat -na  | find "27017")
